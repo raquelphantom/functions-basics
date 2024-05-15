@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ice cream</title>
+    <script>
+
+        function juntador () {
+            
+            var bornpink = document.getElementById("bagui")
+            var n1 = eval(bornpink.value)
+            var thealbum = document.getElementById("bagui2")
+            var n2 = eval(thealbum.value)
+            var girls = document.getElementById("bagui3")
+            var n3 = eval(girls.value)
+
+            document.write ("a soma é = " + (n1+n2+n3))
+
+
+        }
+
+    </script>
+</head>
+<body>
+    <button id="shut down" onclick="juntador()">send</button>
+    <form action="">
+        <p>insira números</p>
+        <input id="bagui" type="number">
+        <input id="bagui2" type="number">
+        <input id="bagui3" type="number">
+
+
+    </form>
+</body>
+</html>

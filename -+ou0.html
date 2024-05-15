@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>happiest girl</title>
+    <script>
+
+        function bp (){
+            var stay = document.getElementById("bagui")
+            var n1 = eval(stay.value)
+
+           n1>0? document.write("positivo") : n1<0? document.write("negativo"):document.write(" o n é 0");
+        }
+
+    </script>
+</head>
+<body>
+   <button id="shut down" onclick="bp()">send</button>
+       <form action="">
+         <p>insira número </p>
+         <input id="bagui" type="number">
+    
+        </form>
+</body>
+</html>

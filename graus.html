@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>playing with fire</title>
+    <script>
+
+        function hot () {
+            
+            var hotsauce = document.getElementById("bagui")
+            var f = eval(hotsauce.value)
+
+            document.write("a temperatura na medida de inteligente (celsius) = "+ ((f-32)*0.5556))
+
+        }
+
+    </script>
+</head>
+<body>
+    <button id="shut down" onclick="hot()">send</button>
+    <form action="">
+        <p>insira graus em medida de gringo (fahrenheit) </p>
+        <input id="bagui" type="number">
+
+    </form>
+</body>
+</html>

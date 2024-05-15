@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>you never know</title>
+    <script>
+
+        function bp(){
+
+            var jisoo= document.getElementById("bagui1")
+            var n1 = eval(jisoo.value)
+            var jennie = document.getElementById("bagui2")
+            var n2 = eval(jennie.value)
+            var rose = document.getElementById("bagui3")
+            var n3 = eval(rose.value)
+            var lisa = document.getElementById("bagui4")
+            var n4 = eval(lisa.value)
+
+
+            var media= (n1+n2+n3+n4)/4
+
+            document.write(media)
+            media>=5? document.write("aprovado"): document.write("reprovado")
+
+        }
+
+    </script>
+</head>
+<body>
+   <button id="shut down" onclick="bp()">send</button>
+       <form action="">
+         <p>insira notas </p>
+         <input id="bagui1" type="number">
+         <input id="bagui2" type="number">
+         <input id="bagui3" type="number">
+         <input id="bagui4" type="number">
+    
+        </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h3lp</title>
+    <script>
+
+        function dados (){
+
+            var insiranomecriativoaqui = document.getElementById("nomedoindiota")
+            var nome = insiranomecriativoaqui.value
+            var deemviewsemgirlsdoblackpink = document.getElementById("cursou")
+            var curso = deemviewsemgirlsdoblackpink.value
+            var eaipro= document.getElementById("nasceu")
+            var anonascimento= eaipro.value
+            const dataAtual = new Date();
+            const anoAtual = dataAtual. getFullYear();
+            idade= anoAtual-anonascimento
+
+            console.log(nome+"<br>"+curso+"<br>"+idade)
+
+        }
+
+    </script>
+</head>
+<body>
+    <form action="">
+        <p>qual seu nome?</p>
+        <input type="text" id="nomedoindiota">
+        <p>o que vc cursa ?(se for adm vaza)</p>
+        <input type="text" id="cursou">
+        <p>ano de nascimento?</p>
+        <input type="text" id="nasceu">
+        
+    </form>
+    <button onclick="dados()"> send informações pra darkw33b</button>
+</body>
+</html>
